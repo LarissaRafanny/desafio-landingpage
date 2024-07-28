@@ -1,0 +1,171 @@
+*{
+   margin: 0px;
+   font-family: "inter"; 
+}
+
+#titulo-menusuperior{
+    padding-top: 250px;
+    margin-left: 50px;    
+}
+
+#texto-menusuperior{
+    margin-left: 50px;
+    margin-top: 10px;
+    padding-bottom: 100px;    
+}
+
+#menusuperior{
+    background-image: url(imagem/fundo.jpg);
+    background-size: 100% 100%;    
+}
+
+#menuinformacional{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow:column;    
+    padding: 50px;    
+}
+
+#titulo-menuinformacional{
+    margin-left: 50px;
+}
+
+.textoinformativo{
+    margin-left: 50px;    
+}
+
+#sessaoimagem{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: auto;
+}
+
+#tituloimagem{
+    margin-top: 35%;
+    margin-left: 50px; 
+}
+
+#textoimagem{
+    margin-top: 40px;
+    margin-left: 50px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+#imagemanimada{
+    padding: 75px;
+}
+
+#imagemanimada:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+#slideshow-container {
+    background-color: #F9F9F9;    
+    text-align:center;
+  }
+
+#titulo-carrossel{
+    padding: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#fotos{
+    width: 40%;
+    border-radius: 30%;
+   
+}
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    padding: 5px;
+    margin-bottom: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+
+
+#formulario{
+    background-color: #171616; 
+    text-align: center; 
+    padding: 25px; 
+}
+
+#titulo-formulario{
+    color: white;
+    margin: 25px;
+    font-size: 25px;  
+}
+
+input{
+    width: 360px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #9f4413;
+    height: 40px;
+    width: 250px;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #e4944f;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 10px 10px #f9f9f996;
+    transition-duration: 0.5s;
+}
